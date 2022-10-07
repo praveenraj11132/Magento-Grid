@@ -1,0 +1,13 @@
+{
+    "student": {
+        "column": {
+            "id": true,
+            "name": true,
+            "email": true,
+            "mobile": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

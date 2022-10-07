@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Praveen_Grid::manager" title="Student" module="Praveen_Grid" sortOrder="10" resource="Praveen_Grid::manager"/>
+        <add id="Praveen_Grid::add_row" title="student" module="Praveen_Grid" sortOrder="20" parent="Praveen_Grid::manager" action="grid/grid" resource="Praveen_Grid::add_row"/>
+    </menu>
+</config>
